@@ -90,8 +90,8 @@ python model.py
 ```
 
 ### Trained model
-- [model.json](http://dropbox.com)
-- [model.h5](http://www.www.com)
+- [model.json](https://www.dropbox.com/s/i704xuffua2k8p6/model.json?dl=0)
+- [model.h5](https://www.dropbox.com/s/j3cragmf87dl4y6/model.h5?dl=0)
 
 ### Driving
 ```
