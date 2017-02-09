@@ -7,7 +7,7 @@
 ##### Distribution of angle for the entire dataset
 About 90% of the time the car is driving straight or nearly straight (less than 10 degrees). 
 
-![Steering histogram](resources/steering histogram.png "Steering histogram"")
+![Steering histogram](resources/steering_histogram.png "Steering histogram"")
 
 For about 1% of the driving data a recovery maneuver is performed. This is when the car is about to go off the road and the driver sharply steers it back. This pattern is repeated a handful of times to teach the model how to recover from almost going off the road in various spots in the course.
 
