@@ -3,8 +3,21 @@
 ### Training data
 - Dataset was created by driving around the track a few times while making sure the car is staying within the lanes.
 - A few instances where the car recovers from almost going out of the lane are captured for better training.
-- Sample image
-![Sample image](resources/sample.jpg "Sample image"")
+
+##### Distribution of angle for the entire dataset
+About 90% of the time the car is driving straight or nearly straight (less than 10 degrees). 
+
+![Steering histogram](resources/steering histogram.jpg "Steering histogram"")
+
+For about 1% of the driving data a recovery maneuver is performed. This is when the car is about to go off the road and the driver sharply steers it back. This pattern is repeated a handful of times to teach the model how to recover from almost going off the road in various spots in the course.
+
+The following example shows the car steering with 0 degrees and about to go off the road:
+
+![Sample about to go off road](resources/sample_about_to_go_off_road.jpg "Sample about to go off road"")
+
+And the next image shows the car back to normal (recovered) after a sharp 60 degrees steer for a couple of frames:
+
+![Sample recovered](resources/sample_recovered.jpg "Sample recovered"")
 
 ### Processing
 - Dataset is split into train (2/3), validation (2/9) and test sets (1/9)
